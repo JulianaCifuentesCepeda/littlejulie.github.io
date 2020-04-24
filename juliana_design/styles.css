@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@import url("estilos.css");
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+
+	width: 100%;
+	height: 100%;
+	background: rgba(110,205,226,1);
+background: -moz-linear-gradient(top, rgba(110,205,226,1) 0%, rgba(80,131,165,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(110,205,226,1)), color-stop(100%, rgba(80,131,165,1)));
+background: -webkit-linear-gradient(top, rgba(110,205,226,1) 0%, rgba(80,131,165,1) 100%);
+background: -o-linear-gradient(top, rgba(110,205,226,1) 0%, rgba(80,131,165,1) 100%);
+background: -ms-linear-gradient(top, rgba(110,205,226,1) 0%, rgba(80,131,165,1) 100%);
+background: linear-gradient(to bottom, rgba(110,205,226,1) 0%, rgba(80,131,165,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6ecde2', endColorstr='#5083a5', GradientType=0 );
+}
+#contai{
+	max-width: 800px;
+	margin: 0 auto;
+	-webkit-box-shadow: -1px 1px 24px 4px rgba(29,65,89,0.79);
+	-moz-box-shadow: -1px 1px 24px 4px rgba(29,65,89,0.79);
+	box-shadow: -1px 1px 24px 4px rgba(29,65,89,0.79);
+}
+.fondo{
+	display: block;
+	width: 100%;
+	max-width: 800px;
+	height: auto;
+}
+header{
+	display: flex;
+	max-width: 800px;
+	width: 100%;
+	height: auto;
+}
+.image{
+	position: relative;
+	display: inline-block;
+	width: 50%;
+	height: auto;
+}
+footer{
+	background-image: url("images/footer.jpg");
+	width: 100%;
+	height: 100%;
+	max-width: 800px;
+}
+.resize{
+	max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+.logo{
+   display: block;
+	width:90%;
+	margin:auto;
+	border-radius: 40px;
+	padding: 3%;
+
+}
+
+hr{
+	width:85%;
+	border-color: white solid;
+	margin: auto;
+	border: solid #caeaf4 2px;
+}
+#index_link{
+	position: relative;
+	display: inline-block;
+	width: 30%;
+	height: auto;
+	margin-top: 10%;
+	margin-bottom: 0%;
+}
+#back_image{
+	width:60%;
+	display:inline-block;
+	justify-content: center;
+
+}
+#back{
+	text-align: left;
+
+}
+#back p{
+	margin: 0;
+}
+#back p{
+	display:inline-block;
+}
+#back_cont{
+}
+#bocetos .carousel-inner img{
+    border-radius: 5%;
+    max-height: 500px;
+    object-fit: cover;
+    object-position: top;
+}
